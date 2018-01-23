@@ -32,3 +32,12 @@ describe('blinkyDancer', function() {
     });
   });
 });
+
+describe('napoleanDancer', function() {
+  it('should add one napoleanDancer to the screen', function () {
+
+
+  });
+
+
+});

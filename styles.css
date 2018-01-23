@@ -3,7 +3,8 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-image: url('https://static.pexels.com/photos/255379/pexels-photo-255379.jpeg');
+  background-size: 100% auto;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -23,5 +24,19 @@ body, a:link, a:visited, a:active{
 .dancer{
   border:10px solid red;
   border-radius:10px;
+  position:absolute;
+}
+
+.napolean{
+/*  border:10px solid blue;
+  border-radius:10px;*/
+  
+  position:absolute;
+}
+
+.napolean2{
+/*  border:10px solid blue;
+  border-radius:10px;*/
+  
   position:absolute;
 }
