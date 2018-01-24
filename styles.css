@@ -40,3 +40,8 @@ body, a:link, a:visited, a:active{
   
   position:absolute;
 }
+
+.lineUp{
+  padding:5px 12px;
+  float:right;
+}
