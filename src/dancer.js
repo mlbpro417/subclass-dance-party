@@ -32,6 +32,15 @@ MakeDancer.prototype.setPosition = function(top, left) {
   this.$node.css(styleSettings);
 };
 
+MakeDancer.prototype.lineUp = function() {
+  // maybe use max left in css
+  console.log('hello');
+  var styleSettings = {
+    left: 0
+  };
+  
+  this.$node.css(styleSettings);
+};
 // now that we have defined the dancer object, we can start setting up important parts of it by calling the methods we wrote
 // this one sets the position to some random default point within the body
 // dancer.setPosition(top, left);

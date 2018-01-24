@@ -27,7 +27,22 @@ $(document).ready(function() {
       $('body').width() * Math.random(),
       Math.random() * 1000
     );
+    dancers.push(dancer);
     $('body').append(dancer.$node);
   });
+
+  $('.lineUp').on('click', function(event) {
+    // iterate over window.dancers array
+    for (var i = 0; i < window.dancers.length; i++) {
+      window.dancers[i].lineUp();
+    }
+    // call the lineup method on all the items in the array
+    
+
+  });
+
+
+
 });
 
+//.on('click')
